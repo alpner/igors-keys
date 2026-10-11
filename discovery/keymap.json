@@ -1,0 +1,1790 @@
+{
+  "device": "Cherry CyMotion Master XPress G86-21050, USB 046A:0023",
+  "captured": "2026-10-11 18:12:12",
+  "signature_format": "collection + raw report bytes (hex, report-id first) for press and release; keyboard events carry scan code/E0 flag/vkey",
+  "keys": {
+    "XPress 1": {
+      "group": "XPress side keys (column of 10)",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "013302",
+          "decoded": "report_id=1 consumer usage=0x0233 AC Scroll Up",
+          "usage": 563
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 53.742695,
+          "wall": "17:27:51",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "013302",
+          "usage": 563,
+          "decoded": "report_id=1 consumer usage=0x0233 AC Scroll Up"
+        },
+        {
+          "t": 53.862576,
+          "wall": "17:27:51",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "label": "left, first from the top, label says f1 with up and right arrow",
+      "auto_name": "0x0233 AC Scroll Up",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "013302",
+        "release_bytes": "010000",
+        "usage": 563,
+        "usage_hex": "0x0233"
+      }
+    },
+    "XPress 2": {
+      "group": "XPress side keys (column of 10)",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "013402",
+          "decoded": "report_id=1 consumer usage=0x0234 AC Scroll Down",
+          "usage": 564
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 83.735608,
+          "wall": "17:28:21",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "013402",
+          "usage": 564,
+          "decoded": "report_id=1 consumer usage=0x0234 AC Scroll Down"
+        },
+        {
+          "t": 83.856143,
+          "wall": "17:28:21",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "label": "left, second from the top, label says f2 with down and left arrow",
+      "auto_name": "0x0234 AC Scroll Down",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "013402",
+        "release_bytes": "010000",
+        "usage": 564,
+        "usage_hex": "0x0234"
+      }
+    },
+    "XPress 3": {
+      "group": "XPress side keys (column of 10)",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "011c02",
+          "decoded": "report_id=1 consumer usage=0x021C AC Cut",
+          "usage": 540
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 125.672371,
+          "wall": "17:29:03",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "011c02",
+          "usage": 540,
+          "decoded": "report_id=1 consumer usage=0x021C AC Cut"
+        },
+        {
+          "t": 125.768746,
+          "wall": "17:29:03",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "label": "left, third from the top, label says f3 with scissors - probably cut",
+      "auto_name": "0x021C AC Cut",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "011c02",
+        "release_bytes": "010000",
+        "usage": 540,
+        "usage_hex": "0x021C"
+      }
+    },
+    "XPress 4": {
+      "group": "XPress side keys (column of 10)",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "011d02",
+          "decoded": "report_id=1 consumer usage=0x021D AC Paste",
+          "usage": 541
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 160.281159,
+          "wall": "17:29:38",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "011d02",
+          "usage": 541,
+          "decoded": "report_id=1 consumer usage=0x021D AC Paste"
+        },
+        {
+          "t": 160.401901,
+          "wall": "17:29:38",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "label": "left, fourth from the top, label says f4 with sheet of paper, probably paste",
+      "auto_name": "0x021D AC Paste",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "011d02",
+        "release_bytes": "010000",
+        "usage": 541,
+        "usage_hex": "0x021D"
+      }
+    },
+    "XPress 5": {
+      "group": "XPress side keys (column of 10)",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "011b02",
+          "decoded": "report_id=1 consumer usage=0x021B AC Copy",
+          "usage": 539
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 193.61801,
+          "wall": "17:30:11",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "011b02",
+          "usage": 539,
+          "decoded": "report_id=1 consumer usage=0x021B AC Copy"
+        },
+        {
+          "t": 193.761768,
+          "wall": "17:30:11",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "label": "left, fifth from the top, label says f5 with two sheets of paper, probably copy",
+      "auto_name": "0x021B AC Copy",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "011b02",
+        "release_bytes": "010000",
+        "usage": 539,
+        "usage_hex": "0x021B"
+      }
+    },
+    "XPress 6": {
+      "group": "XPress side keys (column of 10)",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010103",
+          "decoded": "report_id=1 consumer usage=0x0301 (reserved 0x301 -> Cherry XPress1 / Linux PROG1)  ** OUT OF DESCRIPTOR RANGE (max 0x23C) -> Windows HID parser drops it **",
+          "usage": 769
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 240.898993,
+          "wall": "17:30:59",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010103",
+          "usage": 769,
+          "decoded": "report_id=1 consumer usage=0x0301 (reserved 0x301 -> Cherry XPress1 / Linux PROG1)  ** OUT OF DESCRIPTOR RANGE (max 0x23C) -> Windows HID parser drops it **"
+        },
+        {
+          "t": 241.019043,
+          "wall": "17:30:59",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "label": "right, first from the top, label says f6 with sheet of paper and 1",
+      "auto_name": "0x0301 (reserved 0x301 -> Cherry XPress1 / Linux PROG1)",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "010103",
+        "release_bytes": "010000",
+        "usage": 769,
+        "usage_hex": "0x0301"
+      }
+    },
+    "XPress 7": {
+      "group": "XPress side keys (column of 10)",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010203",
+          "decoded": "report_id=1 consumer usage=0x0302 (reserved 0x302 -> Cherry XPress2 / Linux PROG2)  ** OUT OF DESCRIPTOR RANGE (max 0x23C) -> Windows HID parser drops it **",
+          "usage": 770
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 260.388053,
+          "wall": "17:31:18",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010203",
+          "usage": 770,
+          "decoded": "report_id=1 consumer usage=0x0302 (reserved 0x302 -> Cherry XPress2 / Linux PROG2)  ** OUT OF DESCRIPTOR RANGE (max 0x23C) -> Windows HID parser drops it **"
+        },
+        {
+          "t": 260.507528,
+          "wall": "17:31:18",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "label": "right, second from the top, label says f7 with sheet of paper and 2",
+      "auto_name": "0x0302 (reserved 0x302 -> Cherry XPress2 / Linux PROG2)",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "010203",
+        "release_bytes": "010000",
+        "usage": 770,
+        "usage_hex": "0x0302"
+      }
+    },
+    "XPress 8": {
+      "group": "XPress side keys (column of 10)",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010303",
+          "decoded": "report_id=1 consumer usage=0x0303 (reserved 0x303 -> Cherry XPress3 / Linux PROG3)  ** OUT OF DESCRIPTOR RANGE (max 0x23C) -> Windows HID parser drops it **",
+          "usage": 771
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 277.76418,
+          "wall": "17:31:35",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010303",
+          "usage": 771,
+          "decoded": "report_id=1 consumer usage=0x0303 (reserved 0x303 -> Cherry XPress3 / Linux PROG3)  ** OUT OF DESCRIPTOR RANGE (max 0x23C) -> Windows HID parser drops it **"
+        },
+        {
+          "t": 277.883898,
+          "wall": "17:31:35",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "label": "right, third from the top, label says f8 with sheet of paper and 3",
+      "auto_name": "0x0303 (reserved 0x303 -> Cherry XPress3 / Linux PROG3)",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "010303",
+        "release_bytes": "010000",
+        "usage": 771,
+        "usage_hex": "0x0303"
+      }
+    },
+    "XPress 9": {
+      "group": "XPress side keys (column of 10)",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "017902",
+          "decoded": "report_id=1 consumer usage=0x0279 AC Redo/Repeat  ** OUT OF DESCRIPTOR RANGE (max 0x23C) -> Windows HID parser drops it **",
+          "usage": 633
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 312.284637,
+          "wall": "17:32:10",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "017902",
+          "usage": 633,
+          "decoded": "report_id=1 consumer usage=0x0279 AC Redo/Repeat  ** OUT OF DESCRIPTOR RANGE (max 0x23C) -> Windows HID parser drops it **"
+        },
+        {
+          "t": 312.429342,
+          "wall": "17:32:10",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "label": "right, fourth from the top, label says f9 with forward arrow",
+      "auto_name": "0x0279 AC Redo/Repeat",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "017902",
+        "release_bytes": "010000",
+        "usage": 633,
+        "usage_hex": "0x0279"
+      }
+    },
+    "XPress 10": {
+      "group": "XPress side keys (column of 10)",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "011a02",
+          "decoded": "report_id=1 consumer usage=0x021A AC Undo",
+          "usage": 538
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 333.053183,
+          "wall": "17:32:31",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "011a02",
+          "usage": 538,
+          "decoded": "report_id=1 consumer usage=0x021A AC Undo"
+        },
+        {
+          "t": 333.213091,
+          "wall": "17:32:31",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "label": "right, fifth from the top, label says f10 with back arrow",
+      "auto_name": "0x021A AC Undo",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "011a02",
+        "release_bytes": "010000",
+        "usage": 538,
+        "usage_hex": "0x021A"
+      }
+    },
+    "Calculator": {
+      "group": "extra key",
+      "description": "above numpad, from left to right, first key, calculator",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "019201",
+          "decoded": "report_id=1 consumer usage=0x0192 AL Calculator",
+          "usage": 402
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 388.118493,
+          "wall": "17:33:26",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "019201",
+          "usage": 402,
+          "decoded": "report_id=1 consumer usage=0x0192 AL Calculator"
+        },
+        {
+          "t": 388.214417,
+          "wall": "17:33:26",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x0192 AL Calculator",
+      "same_as": [],
+      "label": "above numpad, from left to right, first key, calculator",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "019201",
+        "release_bytes": "010000",
+        "usage": 402,
+        "usage_hex": "0x0192"
+      }
+    },
+    "E-Mail": {
+      "group": "extra key",
+      "description": "above numpad, from left to right, second key, email",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "018a01",
+          "decoded": "report_id=1 consumer usage=0x018A AL Email Reader",
+          "usage": 394
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 407.038904,
+          "wall": "17:33:45",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "018a01",
+          "usage": 394,
+          "decoded": "report_id=1 consumer usage=0x018A AL Email Reader"
+        },
+        {
+          "t": 407.159587,
+          "wall": "17:33:45",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x018A AL Email Reader",
+      "same_as": [],
+      "label": "above numpad, from left to right, second key, email",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "018a01",
+        "release_bytes": "010000",
+        "usage": 394,
+        "usage_hex": "0x018A"
+      }
+    },
+    "WWW Home": {
+      "group": "extra key",
+      "description": "above numpad, from left to right, third key, home",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "012302",
+          "decoded": "report_id=1 consumer usage=0x0223 AC Home",
+          "usage": 547
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 424.46437,
+          "wall": "17:34:02",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "012302",
+          "usage": 547,
+          "decoded": "report_id=1 consumer usage=0x0223 AC Home"
+        },
+        {
+          "t": 424.60733,
+          "wall": "17:34:02",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x0223 AC Home",
+      "same_as": [],
+      "label": "above numpad, from left to right, third key, home",
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "012302",
+        "release_bytes": "010000",
+        "usage": 547,
+        "usage_hex": "0x0223"
+      }
+    },
+    "Volume -": {
+      "group": "extra key",
+      "description": "Volume -",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "01ea00",
+          "decoded": "report_id=1 consumer usage=0x00EA Volume Decrement",
+          "usage": 234
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 111.640451,
+          "wall": "18:04:39",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "01ea00",
+          "usage": 234,
+          "decoded": "report_id=1 consumer usage=0x00EA Volume Decrement"
+        },
+        {
+          "t": 111.784408,
+          "wall": "18:04:39",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x00EA Volume Decrement",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "01ea00",
+        "release_bytes": "010000",
+        "usage": 234,
+        "usage_hex": "0x00EA"
+      }
+    },
+    "Volume +": {
+      "group": "extra key",
+      "description": "Volume +",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "01e900",
+          "decoded": "report_id=1 consumer usage=0x00E9 Volume Increment",
+          "usage": 233
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 120.215515,
+          "wall": "18:04:47",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "01e900",
+          "usage": 233,
+          "decoded": "report_id=1 consumer usage=0x00E9 Volume Increment"
+        },
+        {
+          "t": 120.359442,
+          "wall": "18:04:47",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x00E9 Volume Increment",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "01e900",
+        "release_bytes": "010000",
+        "usage": 233,
+        "usage_hex": "0x00E9"
+      }
+    },
+    "Mute": {
+      "group": "extra key",
+      "description": "Mute",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "01e200",
+          "decoded": "report_id=1 consumer usage=0x00E2 Mute",
+          "usage": 226
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 131.584205,
+          "wall": "18:04:59",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "01e200",
+          "usage": 226,
+          "decoded": "report_id=1 consumer usage=0x00E2 Mute"
+        },
+        {
+          "t": 131.743691,
+          "wall": "18:04:59",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x00E2 Mute",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "01e200",
+        "release_bytes": "010000",
+        "usage": 226,
+        "usage_hex": "0x00E2"
+      }
+    },
+    "Media player": {
+      "group": "extra key",
+      "description": "Media",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "018301",
+          "decoded": "report_id=1 consumer usage=0x0183 AL Consumer Control Configuration (Media player)",
+          "usage": 387
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 139.65607,
+          "wall": "18:05:07",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "018301",
+          "usage": 387,
+          "decoded": "report_id=1 consumer usage=0x0183 AL Consumer Control Configuration (Media player)"
+        },
+        {
+          "t": 139.824186,
+          "wall": "18:05:07",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x0183 AL Consumer Control Configuration (Media player)",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "018301",
+        "release_bytes": "010000",
+        "usage": 387,
+        "usage_hex": "0x0183"
+      }
+    },
+    "Internet Back": {
+      "group": "extra key",
+      "description": "Internet Back",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "012402",
+          "decoded": "report_id=1 consumer usage=0x0224 AC Back",
+          "usage": 548
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 162.272563,
+          "wall": "18:05:29",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "012402",
+          "usage": 548,
+          "decoded": "report_id=1 consumer usage=0x0224 AC Back"
+        },
+        {
+          "t": 162.392511,
+          "wall": "18:05:30",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x0224 AC Back",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "012402",
+        "release_bytes": "010000",
+        "usage": 548,
+        "usage_hex": "0x0224"
+      }
+    },
+    "Internet Forward": {
+      "group": "extra key",
+      "description": "Internet Forward",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "012502",
+          "decoded": "report_id=1 consumer usage=0x0225 AC Forward",
+          "usage": 549
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 191.113062,
+          "wall": "18:05:58",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "012502",
+          "usage": 549,
+          "decoded": "report_id=1 consumer usage=0x0225 AC Forward"
+        },
+        {
+          "t": 191.257266,
+          "wall": "18:05:58",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x0225 AC Forward",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "012502",
+        "release_bytes": "010000",
+        "usage": 549,
+        "usage_hex": "0x0225"
+      }
+    },
+    "Internet Stop": {
+      "group": "extra key",
+      "description": "Internet Close",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "012602",
+          "decoded": "report_id=1 consumer usage=0x0226 AC Stop",
+          "usage": 550
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 200.233572,
+          "wall": "18:06:07",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "012602",
+          "usage": 550,
+          "decoded": "report_id=1 consumer usage=0x0226 AC Stop"
+        },
+        {
+          "t": 200.346123,
+          "wall": "18:06:07",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x0226 AC Stop",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "012602",
+        "release_bytes": "010000",
+        "usage": 550,
+        "usage_hex": "0x0226"
+      }
+    },
+    "Internet Refresh": {
+      "group": "extra key",
+      "description": "Internet Refresh",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "012702",
+          "decoded": "report_id=1 consumer usage=0x0227 AC Refresh",
+          "usage": 551
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 209.513655,
+          "wall": "18:06:17",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "012702",
+          "usage": 551,
+          "decoded": "report_id=1 consumer usage=0x0227 AC Refresh"
+        },
+        {
+          "t": 209.633836,
+          "wall": "18:06:17",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x0227 AC Refresh",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "012702",
+        "release_bytes": "010000",
+        "usage": 551,
+        "usage_hex": "0x0227"
+      }
+    },
+    "Internet Search": {
+      "group": "extra key",
+      "description": "Internet Search",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "012102",
+          "decoded": "report_id=1 consumer usage=0x0221 AC Search",
+          "usage": 545
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 218.585956,
+          "wall": "18:06:26",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "012102",
+          "usage": 545,
+          "decoded": "report_id=1 consumer usage=0x0221 AC Search"
+        },
+        {
+          "t": 218.677993,
+          "wall": "18:06:26",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x0221 AC Search",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "012102",
+        "release_bytes": "010000",
+        "usage": 545,
+        "usage_hex": "0x0221"
+      }
+    },
+    "Media Play/Pause": {
+      "group": "extra key",
+      "description": "Media Play/Pause",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "01cd00",
+          "decoded": "report_id=1 consumer usage=0x00CD Play/Pause",
+          "usage": 205
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 249.674591,
+          "wall": "18:06:57",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "01cd00",
+          "usage": 205,
+          "decoded": "report_id=1 consumer usage=0x00CD Play/Pause"
+        },
+        {
+          "t": 249.818527,
+          "wall": "18:06:57",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x00CD Play/Pause",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "01cd00",
+        "release_bytes": "010000",
+        "usage": 205,
+        "usage_hex": "0x00CD"
+      }
+    },
+    "Media Stop": {
+      "group": "extra key",
+      "description": "Media Stop",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "01b700",
+          "decoded": "report_id=1 consumer usage=0x00B7 Stop",
+          "usage": 183
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 261.442838,
+          "wall": "18:07:09",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "01b700",
+          "usage": 183,
+          "decoded": "report_id=1 consumer usage=0x00B7 Stop"
+        },
+        {
+          "t": 261.610844,
+          "wall": "18:07:09",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x00B7 Stop",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "01b700",
+        "release_bytes": "010000",
+        "usage": 183,
+        "usage_hex": "0x00B7"
+      }
+    },
+    "Media Previous": {
+      "group": "extra key",
+      "description": "Media Previous",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "01b600",
+          "decoded": "report_id=1 consumer usage=0x00B6 Scan Previous Track",
+          "usage": 182
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 275.819206,
+          "wall": "18:07:23",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "01b600",
+          "usage": 182,
+          "decoded": "report_id=1 consumer usage=0x00B6 Scan Previous Track"
+        },
+        {
+          "t": 275.963273,
+          "wall": "18:07:23",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x00B6 Scan Previous Track",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "01b600",
+        "release_bytes": "010000",
+        "usage": 182,
+        "usage_hex": "0x00B6"
+      }
+    },
+    "Media Next Track": {
+      "group": "extra key",
+      "description": "Media Next Track",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "01b500",
+          "decoded": "report_id=1 consumer usage=0x00B5 Scan Next Track",
+          "usage": 181
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 285.292123,
+          "wall": "18:07:32",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "01b500",
+          "usage": 181,
+          "decoded": "report_id=1 consumer usage=0x00B5 Scan Next Track"
+        },
+        {
+          "t": 285.435394,
+          "wall": "18:07:33",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x00B5 Scan Next Track",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "01b500",
+        "release_bytes": "010000",
+        "usage": 181,
+        "usage_hex": "0x00B5"
+      }
+    },
+    "Media Eject": {
+      "group": "extra key",
+      "description": "Media Eject",
+      "press": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "01b800",
+          "decoded": "report_id=1 consumer usage=0x00B8 Eject",
+          "usage": 184
+        }
+      ],
+      "release": [
+        {
+          "collection": "consumer(0C/01)",
+          "bytes": "010000",
+          "decoded": "report_id=1 consumer usage=0x0000 release/none",
+          "usage": 0
+        }
+      ],
+      "events": [
+        {
+          "t": 293.26767,
+          "wall": "18:07:40",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "01b800",
+          "usage": 184,
+          "decoded": "report_id=1 consumer usage=0x00B8 Eject"
+        },
+        {
+          "t": 293.387997,
+          "wall": "18:07:41",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "consumer(0C/01)",
+          "interface": 1,
+          "type": "hid",
+          "report_size": 3,
+          "report_count": 1,
+          "bytes": "010000",
+          "usage": 0,
+          "decoded": "report_id=1 consumer usage=0x0000 release/none"
+        }
+      ],
+      "auto_name": "0x00B8 Eject",
+      "same_as": [],
+      "signature": {
+        "collection": "consumer(0C/01)",
+        "press_bytes": "01b800",
+        "release_bytes": "010000",
+        "usage": 184,
+        "usage_hex": "0x00B8"
+      }
+    },
+    "KeyM@n + XPress 1": {
+      "group": "KeyM@n layer (firmware): side key becomes a plain F-key on the keyboard collection",
+      "description": "keyman modifier + left, top one of five, f1",
+      "press": [
+        {
+          "collection": "keyboard(01/06)",
+          "bytes": "3b000000000070000001000000000000",
+          "decoded": "MAKE(down) scan=0x3B vkey=0x70 msg=0x0100",
+          "scan": 59,
+          "e0": false,
+          "vkey": 112
+        }
+      ],
+      "release": [
+        {
+          "collection": "keyboard(01/06)",
+          "bytes": "3b000100000070000101000000000000",
+          "decoded": "BREAK(up) scan=0x3B vkey=0x70 msg=0x0101",
+          "scan": 59,
+          "e0": false,
+          "vkey": 112
+        }
+      ],
+      "events": [
+        {
+          "t": 469.097436,
+          "wall": "18:10:36",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_00#8&22bd93bc&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "keyboard(01/06)",
+          "interface": 0,
+          "type": "keyboard",
+          "make_code": 59,
+          "flags": 0,
+          "vkey": 112,
+          "message": 256,
+          "extra": 0,
+          "bytes": "3b000000000070000001000000000000",
+          "decoded": "MAKE(down) scan=0x3B vkey=0x70 msg=0x0100"
+        },
+        {
+          "t": 469.240043,
+          "wall": "18:10:36",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_00#8&22bd93bc&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "keyboard(01/06)",
+          "interface": 0,
+          "type": "keyboard",
+          "make_code": 59,
+          "flags": 1,
+          "vkey": 112,
+          "message": 257,
+          "extra": 0,
+          "bytes": "3b000100000070000101000000000000",
+          "decoded": "BREAK(up) scan=0x3B vkey=0x70 msg=0x0101"
+        }
+      ],
+      "auto_name": "keyboard scan 0x3B vkey 0x70",
+      "same_as": [],
+      "signature": {
+        "collection": "keyboard(01/06)",
+        "press_bytes": "3b000000000070000001000000000000",
+        "release_bytes": "3b000100000070000101000000000000",
+        "scan": 59,
+        "vkey": 112
+      }
+    },
+    "KeyM@n + XPress 6": {
+      "group": "KeyM@n layer (firmware): side key becomes a plain F-key on the keyboard collection",
+      "description": "keyman + right, top one of five, f6",
+      "press": [
+        {
+          "collection": "keyboard(01/06)",
+          "bytes": "40000000000075000001000000000000",
+          "decoded": "MAKE(down) scan=0x40 vkey=0x75 msg=0x0100",
+          "scan": 64,
+          "e0": false,
+          "vkey": 117
+        }
+      ],
+      "release": [
+        {
+          "collection": "keyboard(01/06)",
+          "bytes": "40000100000075000101000000000000",
+          "decoded": "BREAK(up) scan=0x40 vkey=0x75 msg=0x0101",
+          "scan": 64,
+          "e0": false,
+          "vkey": 117
+        }
+      ],
+      "events": [
+        {
+          "t": 551.170221,
+          "wall": "18:11:58",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_00#8&22bd93bc&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "keyboard(01/06)",
+          "interface": 0,
+          "type": "keyboard",
+          "make_code": 64,
+          "flags": 0,
+          "vkey": 117,
+          "message": 256,
+          "extra": 0,
+          "bytes": "40000000000075000001000000000000",
+          "decoded": "MAKE(down) scan=0x40 vkey=0x75 msg=0x0100"
+        },
+        {
+          "t": 551.338579,
+          "wall": "18:11:58",
+          "device": "\\\\?\\HID#VID_046A&PID_0023&MI_00#8&22bd93bc&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}",
+          "vid": 1130,
+          "pid": 35,
+          "collection": "keyboard(01/06)",
+          "interface": 0,
+          "type": "keyboard",
+          "make_code": 64,
+          "flags": 1,
+          "vkey": 117,
+          "message": 257,
+          "extra": 0,
+          "bytes": "40000100000075000101000000000000",
+          "decoded": "BREAK(up) scan=0x40 vkey=0x75 msg=0x0101"
+        }
+      ],
+      "auto_name": "keyboard scan 0x40 vkey 0x75",
+      "same_as": [],
+      "signature": {
+        "collection": "keyboard(01/06)",
+        "press_bytes": "40000000000075000001000000000000",
+        "release_bytes": "40000100000075000101000000000000",
+        "scan": 64,
+        "vkey": 117
+      }
+    }
+  },
+  "notes": [
+    "All extra keys are on the consumer-control collection (interface 1, report ID 1, 3-byte report 01 lo hi); release is 01 00 00.",
+    "KeyM@n is a firmware layer: holding it makes the ten side keys send plain F1-F10 on the keyboard collection. The KeyM@n key alone was not seen (expected: invisible to user mode).",
+    "XPress 1-5 = left column top to bottom, XPress 6-10 = right column top to bottom. Power key was deliberately not pressed."
+  ]
+}

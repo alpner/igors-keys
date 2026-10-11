@@ -1,0 +1,27 @@
+# build output
+app/build/
+app/dist/
+app/*.spec
+app/build.log
+__pycache__/
+*.pyc
+
+# Cherry's proprietary KeyM@n / CDI packages and the personal KeyM@n configuration
+CDI/
+KeyMan/
+other/
+*.csf
+
+# raw dumps that only make sense locally
+discovery/strings/
+discovery/__pycache__/
+discovery/rawinput_log.jsonl
+
+# release archives
+*.zip
+
+# local environments and editors
+.venv/
+venv/
+.vscode/
+.idea/

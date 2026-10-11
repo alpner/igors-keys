@@ -1,0 +1,92 @@
+{
+  "magic": "Cherry-Shortcut-FileV2",
+  "count": 2,
+  "objects": [
+    {
+      "class": "CListSC",
+      "flags": 0,
+      "key": 57453,
+      "key_hex": "E06D",
+      "key_name": "Media Select",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 3,
+      "action": "list multimedia program list",
+      "children": [
+        {
+          "class": "CExecutableSC",
+          "flags": 0,
+          "key": 0,
+          "key_hex": "0000",
+          "key_name": "?",
+          "keyman_layer": false,
+          "name": "Windows Media Player",
+          "_a": 0,
+          "_b": 1,
+          "_c": 0,
+          "path": "C:\\Program Files (x86)\\windows media player\\wmplayer.exe",
+          "parameters": "",
+          "kind": 0,
+          "_d": 0,
+          "action": "open program: C:\\Program Files (x86)\\windows media player\\wmplayer.exe "
+        },
+        {
+          "class": "CExecutableSC",
+          "flags": 0,
+          "key": 0,
+          "key_hex": "0000",
+          "key_name": "?",
+          "keyman_layer": false,
+          "name": "Windows Media Center",
+          "_a": 0,
+          "_b": 1,
+          "_c": 0,
+          "path": "C:\\Windows\\eHome\\ehshell.exe",
+          "parameters": "",
+          "kind": 0,
+          "_d": 0,
+          "action": "open program: C:\\Windows\\eHome\\ehshell.exe "
+        }
+      ]
+    },
+    {
+      "class": "CListSC",
+      "flags": 0,
+      "key": 57394,
+      "key_hex": "E032",
+      "key_name": "WWW Home",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 4,
+      "action": "list browser program list",
+      "children": [
+        {
+          "class": "CExecutableSC",
+          "flags": 0,
+          "key": 0,
+          "key_hex": "0000",
+          "key_name": "?",
+          "keyman_layer": false,
+          "name": "Microsoft Internet Explorer",
+          "_a": 0,
+          "_b": 1,
+          "_c": 0,
+          "path": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+          "parameters": "",
+          "kind": 0,
+          "_d": 0,
+          "action": "open program: C:\\Program Files\\Internet Explorer\\iexplore.exe "
+        }
+      ]
+    }
+  ],
+  "trailer_hex": "0100000000000000000000",
+  "consumed": 407,
+  "size": 418
+}

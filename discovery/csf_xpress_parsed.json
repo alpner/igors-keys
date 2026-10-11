@@ -1,0 +1,731 @@
+{
+  "magic": "Cherry-Shortcut-FileV2",
+  "count": 40,
+  "objects": [
+    {
+      "class": "CBrowserSC",
+      "flags": 0,
+      "key": 57449,
+      "key_hex": "E069",
+      "key_name": "WWW Forward",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 2,
+      "action": "browser forward"
+    },
+    {
+      "class": "CBrowserSC",
+      "flags": 0,
+      "key": 57448,
+      "key_hex": "E068",
+      "key_name": "WWW Stop",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 3,
+      "action": "browser stop"
+    },
+    {
+      "class": "CBrowserSC",
+      "flags": 0,
+      "key": 57447,
+      "key_hex": "E067",
+      "key_name": "WWW Refresh",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 4,
+      "action": "browser refresh"
+    },
+    {
+      "class": "CExecutableSC",
+      "flags": 0,
+      "key": 57445,
+      "key_hex": "E065",
+      "key_name": "WWW Search",
+      "keyman_layer": false,
+      "name": "www.cymotion.com",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "path": "http://www.cymotion.com",
+      "parameters": "",
+      "kind": 3,
+      "_d": 0,
+      "action": "open internet address: http://www.cymotion.com "
+    },
+    {
+      "class": "CMediaSC",
+      "flags": 0,
+      "key": 57378,
+      "key_hex": "E022",
+      "key_name": "Play/Pause",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 4,
+      "_d": 0,
+      "_e": 20,
+      "action": "media play/pause"
+    },
+    {
+      "class": "CMediaSC",
+      "flags": 0,
+      "key": 57380,
+      "key_hex": "E024",
+      "key_name": "Media Stop",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 3,
+      "_d": 0,
+      "_e": 20,
+      "action": "media stop"
+    },
+    {
+      "class": "CMediaSC",
+      "flags": 0,
+      "key": 57360,
+      "key_hex": "E010",
+      "key_name": "Previous Track",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 2,
+      "_d": 0,
+      "_e": 20,
+      "action": "media previous track"
+    },
+    {
+      "class": "CMediaSC",
+      "flags": 0,
+      "key": 57369,
+      "key_hex": "E019",
+      "key_name": "Next Track",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 1,
+      "_d": 0,
+      "_e": 20,
+      "action": "media next track"
+    },
+    {
+      "class": "CSystemSC",
+      "flags": 0,
+      "key": 57456,
+      "key_hex": "E070",
+      "key_name": "CD Open",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 1,
+      "_d": 0,
+      "action": "system CD open/eject"
+    },
+    {
+      "class": "CSystemSC",
+      "flags": 0,
+      "key": 57355,
+      "key_hex": "E00B",
+      "key_name": "XPress key 1 (Scroll Up)",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 23,
+      "_d": 0,
+      "action": "system scroll up"
+    },
+    {
+      "class": "CSystemSC",
+      "flags": 0,
+      "key": 57362,
+      "key_hex": "E012",
+      "key_name": "XPress key 2 (Scroll Down)",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 24,
+      "_d": 0,
+      "action": "system scroll down"
+    },
+    {
+      "class": "CSystemSC",
+      "flags": 0,
+      "key": 57367,
+      "key_hex": "E017",
+      "key_name": "XPress key 3 (Cut)",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 27,
+      "_d": 0,
+      "action": "system cut"
+    },
+    {
+      "class": "CSystemSC",
+      "flags": 0,
+      "key": 57354,
+      "key_hex": "E00A",
+      "key_name": "XPress key 4 (Paste)",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 29,
+      "_d": 0,
+      "action": "system paste"
+    },
+    {
+      "class": "CSystemSC",
+      "flags": 0,
+      "key": 57368,
+      "key_hex": "E018",
+      "key_name": "XPress key 5 (Copy)",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 28,
+      "_d": 0,
+      "action": "system copy"
+    },
+    {
+      "class": "CListSC",
+      "flags": 0,
+      "key": 57458,
+      "key_hex": "E072",
+      "key_name": "XPress key 8 (XPress3)",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 7,
+      "action": "list XPress list",
+      "children": []
+    },
+    {
+      "class": "CSystemSC",
+      "flags": 0,
+      "key": 57351,
+      "key_hex": "E007",
+      "key_name": "XPress key 9 (Redo)",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 30,
+      "_d": 0,
+      "action": "system redo"
+    },
+    {
+      "class": "CSystemSC",
+      "flags": 0,
+      "key": 57352,
+      "key_hex": "E008",
+      "key_name": "XPress key 10 (Undo)",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 31,
+      "_d": 0,
+      "action": "system undo"
+    },
+    {
+      "class": "CKeyMacroSC",
+      "flags": 2147483648,
+      "key": 57355,
+      "key_hex": "E00B",
+      "key_name": "XPress key 1 (Scroll Up)",
+      "keyman_layer": true,
+      "name": "F1",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "_d": 0,
+      "macro": [
+        {
+          "vkey": 112,
+          "vkey_hex": "70",
+          "up": false
+        },
+        {
+          "vkey": 112,
+          "vkey_hex": "70",
+          "up": true
+        }
+      ],
+      "action": "key macro +70 -70"
+    },
+    {
+      "class": "CKeyMacroSC",
+      "flags": 2147483648,
+      "key": 57362,
+      "key_hex": "E012",
+      "key_name": "XPress key 2 (Scroll Down)",
+      "keyman_layer": true,
+      "name": "F2",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "_d": 0,
+      "macro": [
+        {
+          "vkey": 113,
+          "vkey_hex": "71",
+          "up": false
+        },
+        {
+          "vkey": 113,
+          "vkey_hex": "71",
+          "up": true
+        }
+      ],
+      "action": "key macro +71 -71"
+    },
+    {
+      "class": "CKeyMacroSC",
+      "flags": 2147483648,
+      "key": 57367,
+      "key_hex": "E017",
+      "key_name": "XPress key 3 (Cut)",
+      "keyman_layer": true,
+      "name": "F3",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "_d": 0,
+      "macro": [
+        {
+          "vkey": 114,
+          "vkey_hex": "72",
+          "up": false
+        },
+        {
+          "vkey": 114,
+          "vkey_hex": "72",
+          "up": true
+        }
+      ],
+      "action": "key macro +72 -72"
+    },
+    {
+      "class": "CKeyMacroSC",
+      "flags": 2147483648,
+      "key": 57354,
+      "key_hex": "E00A",
+      "key_name": "XPress key 4 (Paste)",
+      "keyman_layer": true,
+      "name": "F4",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "_d": 0,
+      "macro": [
+        {
+          "vkey": 115,
+          "vkey_hex": "73",
+          "up": false
+        },
+        {
+          "vkey": 115,
+          "vkey_hex": "73",
+          "up": true
+        }
+      ],
+      "action": "key macro +73 -73"
+    },
+    {
+      "class": "CKeyMacroSC",
+      "flags": 2147483648,
+      "key": 57368,
+      "key_hex": "E018",
+      "key_name": "XPress key 5 (Copy)",
+      "keyman_layer": true,
+      "name": "F5",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "_d": 0,
+      "macro": [
+        {
+          "vkey": 116,
+          "vkey_hex": "74",
+          "up": false
+        },
+        {
+          "vkey": 116,
+          "vkey_hex": "74",
+          "up": true
+        }
+      ],
+      "action": "key macro +74 -74"
+    },
+    {
+      "class": "CKeyMacroSC",
+      "flags": 2147483648,
+      "key": 57457,
+      "key_hex": "E071",
+      "key_name": "XPress key 6 (XPress1)",
+      "keyman_layer": true,
+      "name": "F6",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "_d": 0,
+      "macro": [
+        {
+          "vkey": 117,
+          "vkey_hex": "75",
+          "up": false
+        },
+        {
+          "vkey": 117,
+          "vkey_hex": "75",
+          "up": true
+        }
+      ],
+      "action": "key macro +75 -75"
+    },
+    {
+      "class": "CKeyMacroSC",
+      "flags": 2147483648,
+      "key": 57388,
+      "key_hex": "E02C",
+      "key_name": "XPress key 7 (XPress2)",
+      "keyman_layer": true,
+      "name": "F7",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "_d": 0,
+      "macro": [
+        {
+          "vkey": 118,
+          "vkey_hex": "76",
+          "up": false
+        },
+        {
+          "vkey": 118,
+          "vkey_hex": "76",
+          "up": true
+        }
+      ],
+      "action": "key macro +76 -76"
+    },
+    {
+      "class": "CKeyMacroSC",
+      "flags": 2147483648,
+      "key": 57458,
+      "key_hex": "E072",
+      "key_name": "XPress key 8 (XPress3)",
+      "keyman_layer": true,
+      "name": "F8",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "_d": 0,
+      "macro": [
+        {
+          "vkey": 119,
+          "vkey_hex": "77",
+          "up": false
+        },
+        {
+          "vkey": 119,
+          "vkey_hex": "77",
+          "up": true
+        }
+      ],
+      "action": "key macro +77 -77"
+    },
+    {
+      "class": "CKeyMacroSC",
+      "flags": 2147483648,
+      "key": 57351,
+      "key_hex": "E007",
+      "key_name": "XPress key 9 (Redo)",
+      "keyman_layer": true,
+      "name": "F9",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "_d": 0,
+      "macro": [
+        {
+          "vkey": 120,
+          "vkey_hex": "78",
+          "up": false
+        },
+        {
+          "vkey": 120,
+          "vkey_hex": "78",
+          "up": true
+        }
+      ],
+      "action": "key macro +78 -78"
+    },
+    {
+      "class": "CKeyMacroSC",
+      "flags": 2147483648,
+      "key": 57352,
+      "key_hex": "E008",
+      "key_name": "XPress key 10 (Undo)",
+      "keyman_layer": true,
+      "name": "F10",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "_d": 0,
+      "macro": [
+        {
+          "vkey": 121,
+          "vkey_hex": "79",
+          "up": false
+        },
+        {
+          "vkey": 121,
+          "vkey_hex": "79",
+          "up": true
+        }
+      ],
+      "action": "key macro +79 -79"
+    },
+    {
+      "class": "CSystemSC",
+      "flags": 1024,
+      "key": 57355,
+      "key_hex": "E00B",
+      "key_name": "XPress key 1 (Scroll Up)",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 25,
+      "_d": 0,
+      "action": "system (0x19, unknown)"
+    },
+    {
+      "class": "CSystemSC",
+      "flags": 1024,
+      "key": 57362,
+      "key_hex": "E012",
+      "key_name": "XPress key 2 (Scroll Down)",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 26,
+      "_d": 0,
+      "action": "system (0x1a, unknown)"
+    },
+    {
+      "class": "CExecutableSC",
+      "flags": 0,
+      "key": 57377,
+      "key_hex": "E021",
+      "key_name": "Calculator",
+      "keyman_layer": false,
+      "name": "Windows Calculator",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "path": "calc.exe",
+      "parameters": "",
+      "kind": 0,
+      "_d": 0,
+      "action": "open program: calc.exe "
+    },
+    {
+      "class": "CListSC",
+      "flags": 0,
+      "key": 57452,
+      "key_hex": "E06C",
+      "key_name": "Mail",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 2,
+      "action": "list e-mail program list",
+      "children": []
+    },
+    {
+      "class": "CBrowserSC",
+      "flags": 0,
+      "key": 57394,
+      "key_hex": "E032",
+      "key_name": "WWW Home",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 7,
+      "action": "browser home"
+    },
+    {
+      "class": "CPowerSC",
+      "flags": 2147483648,
+      "key": 57443,
+      "key_hex": "E063",
+      "key_name": "WakeUp",
+      "keyman_layer": true,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 3,
+      "delay_ms": 3000,
+      "_d": 1,
+      "_e": 1,
+      "action": "power function 3 after 3000 ms"
+    },
+    {
+      "class": "CTextMacroSC",
+      "flags": 2147483648,
+      "key": 69,
+      "key_hex": "0045",
+      "key_name": "Num Lock",
+      "keyman_layer": true,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 1,
+      "text": "€",
+      "_d": 0,
+      "action": "type text '€'"
+    },
+    {
+      "class": "CTextMacroSC",
+      "flags": 0,
+      "key": 83,
+      "key_hex": "0053",
+      "key_name": "Keypad . Del",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 2,
+      "text": ",",
+      "_d": 1,
+      "action": "type text ','"
+    },
+    {
+      "class": "CTextMacroSC",
+      "flags": 2147483648,
+      "key": 83,
+      "key_hex": "0053",
+      "key_name": "Keypad . Del",
+      "keyman_layer": true,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 2,
+      "text": ".",
+      "_d": 1,
+      "action": "type text '.'"
+    },
+    {
+      "class": "CListSC",
+      "flags": 0,
+      "key": 57453,
+      "key_hex": "E06D",
+      "key_name": "Media Select",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 3,
+      "action": "list multimedia program list",
+      "children": []
+    },
+    {
+      "class": "CBrowserSC",
+      "flags": 0,
+      "key": 57450,
+      "key_hex": "E06A",
+      "key_name": "WWW Back",
+      "keyman_layer": false,
+      "name": "",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "function": 1,
+      "action": "browser back"
+    },
+    {
+      "class": "CExecutableSC",
+      "flags": 0,
+      "key": 57457,
+      "key_hex": "E071",
+      "key_name": "XPress key 6 (XPress1)",
+      "keyman_layer": false,
+      "name": "My Documents",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "path": "explorer.exe",
+      "parameters": "::{450D8FBA-AD25-11D0-98A8-0800361B1103}",
+      "kind": 0,
+      "_d": 0,
+      "action": "open program: explorer.exe ::{450D8FBA-AD25-11D0-98A8-0800361B1103}"
+    },
+    {
+      "class": "CExecutableSC",
+      "flags": 0,
+      "key": 57388,
+      "key_hex": "E02C",
+      "key_name": "XPress key 7 (XPress2)",
+      "keyman_layer": false,
+      "name": "Videos",
+      "_a": 0,
+      "_b": 1,
+      "_c": 0,
+      "path": "C:\\Users\\<old user>\\Videos",
+      "parameters": "",
+      "kind": 7,
+      "_d": 0,
+      "action": "open folder: C:\\Users\\<old user>\\Videos "
+    }
+  ],
+  "trailer_hex": "0000000000000000000000",
+  "consumed": 1615,
+  "size": 1626
+}

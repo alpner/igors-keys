@@ -1,0 +1,93 @@
+==============================================================================
+path            : \\?\HID#VID_046A&PID_0023&MI_00#8&22bd93bc&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}\KBD
+VID:PID         : 046a:0023
+manufacturer    : (Standard system devices)
+product         : 
+release/bcd     : 0x0020
+interface       : 0
+usage_page/usage: 0x0001 / 0x0006
+bus_type        : 1
+descriptor (65 bytes): 05010906a101050719e029e7150025017501950881027508950181031900297f1500257f75089506810005081901290515002501750195059102750395019103c0
+    05 01          Usage Page (0x1)
+    09 06          Usage (0x6)
+    a1 01          Collection (0x1) (Application)
+    05 07            Usage Page (0x7)
+    19 e0            Usage Minimum (0xe0)
+    29 e7            Usage Maximum (0xe7)
+    15 00            Logical Minimum (0x0)
+    25 01            Logical Maximum (0x1)
+    75 01            Report Size (0x1)
+    95 08            Report Count (0x8)
+    81 02            Input (0x2) (Data,Var,Abs)
+    75 08            Report Size (0x8)
+    95 01            Report Count (0x1)
+    81 03            Input (0x3) (Const,Var,Abs)
+    19 00            Usage Minimum (0x0)
+    29 7f            Usage Maximum (0x7f)
+    15 00            Logical Minimum (0x0)
+    25 7f            Logical Maximum (0x7f)
+    75 08            Report Size (0x8)
+    95 06            Report Count (0x6)
+    81 00            Input (0x0) (Data,Array,Abs)
+    05 08            Usage Page (0x8)
+    19 01            Usage Minimum (0x1)
+    29 05            Usage Maximum (0x5)
+    15 00            Logical Minimum (0x0)
+    25 01            Logical Maximum (0x1)
+    75 01            Report Size (0x1)
+    95 05            Report Count (0x5)
+    91 02            Output (0x2) (Data,Var,Abs)
+    75 03            Report Size (0x3)
+    95 01            Report Count (0x1)
+    91 03            Output (0x3) (Const,Var,Abs)
+    c0             End Collection (0x0)
+
+==============================================================================
+path            : \\?\HID#VID_046A&PID_0023&MI_01&Col01#8&119aa06&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+VID:PID         : 046a:0023
+manufacturer    : (Standard system devices)
+product         : 
+release/bcd     : 0x0020
+interface       : 1
+usage_page/usage: 0x000c / 0x0001
+bus_type        : 1
+descriptor (25 bytes): 050c0901a101850119002a3c021500263c02751095018100c0
+    05 0c          Usage Page (0xc)
+    09 01          Usage (0x1)
+    a1 01          Collection (0x1) (Application)
+    85 01            Report ID (0x1)
+    19 00            Usage Minimum (0x0)
+    2a 3c 02         Usage Maximum (0x23c)
+    15 00            Logical Minimum (0x0)
+    26 3c 02         Logical Maximum (0x23c)
+    75 10            Report Size (0x10)
+    95 01            Report Count (0x1)
+    81 00            Input (0x0) (Data,Array,Abs)
+    c0             End Collection (0x0)
+
+==============================================================================
+path            : \\?\HID#VID_046A&PID_0023&MI_01&Col02#8&119aa06&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+VID:PID         : 046a:0023
+manufacturer    : (Standard system devices)
+product         : 
+release/bcd     : 0x0020
+interface       : 1
+usage_page/usage: 0x0001 / 0x0080
+bus_type        : 1
+descriptor (29 bytes): 05010980a10185021981298315002501750195038102750595018103c0
+    05 01          Usage Page (0x1)
+    09 80          Usage (0x80)
+    a1 01          Collection (0x1) (Application)
+    85 02            Report ID (0x2)
+    19 81            Usage Minimum (0x81)
+    29 83            Usage Maximum (0x83)
+    15 00            Logical Minimum (0x0)
+    25 01            Logical Maximum (0x1)
+    75 01            Report Size (0x1)
+    95 03            Report Count (0x3)
+    81 02            Input (0x2) (Data,Var,Abs)
+    75 05            Report Size (0x5)
+    95 01            Report Count (0x1)
+    81 03            Input (0x3) (Const,Var,Abs)
+    c0             End Collection (0x0)
+

@@ -7,6 +7,24 @@ It replaces Cherry's old KeyM@n program, which no longer works on current Window
 > by Cherry. CHERRY, CyMotion and KeyM@n are trademarks of their respective owners and are used here only to say
 > which keyboard and which old program this works with.
 
+## Made for one keyboard
+
+Igor's Keys was written for, and tested on, exactly one keyboard:
+
+| | |
+|---|---|
+| Keyboard | **CHERRY CyMotion Master XPress**, with five XPress keys down each side of the keyboard |
+| Model | **G86-21050** (sold under part numbers such as `G86-21050PLAAAA` and `G86-21050SLAAAA`; the letters after the number differ between versions) |
+| Connection | USB + PS/2. **Igor's Keys needs it plugged in by USB.** |
+| Seen by Windows as | USB device `046A:0023` |
+| Originally supported | Windows 98 SE / ME / 2000 / XP with Cherry's KeyM@n software |
+
+Product listings: [Icecat datasheet (G86-21050PLAAAA)](https://icecat.sg/p/cherry/g86-21050plaaaa/keyboards-cymotion+master+xpress-+g86-21050-779009.html#Specs),
+[Melcomp (G86-21050SLAAAA)](https://www.melcomp.hr/CHERRY_G86-21050_SLAAAA_USB_PS2_CyMotion_Master_Xpress_-sreb).
+
+The program only listens to a keyboard with that USB id and ignores every other device. Other keyboards,
+including other Cherry models, are not supported.
+
 It is a small program that sits in the notification area (next to the clock) and waits for the extra keys.
 When you press one, it does what you told it to: type a text, press a key combination, or open a program,
 folder or web page.

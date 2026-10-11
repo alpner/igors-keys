@@ -1,9 +1,13 @@
 # Igor's Keys – frequently asked questions
 
 **Which keyboard is this for?**
-The CHERRY CyMotion Master XPress (model G86-21050, USB id 046A:0023). Other Cherry keyboards that use the same
-"consumer control" report (CyMotion Master Solar, Linux edition) will probably work for the keys they share, but
-only the Master XPress was tested.
+Only the CHERRY CyMotion Master XPress, model G86-21050 (part numbers such as G86-21050PLAAAA or
+G86-21050SLAAAA), connected by USB. Windows sees it as USB device 046A:0023, and Igor's Keys listens to that
+device only, so other keyboards (other Cherry models included) are ignored.
+
+**My keyboard is plugged in by PS/2. Does it work?**
+No. Igor's Keys reads the keyboard's USB interface; on PS/2 the keyboard is not the USB device 046A:0023, so the
+program never sees its extra keys. Plug it in by USB.
 
 **Do I need to install a driver?**
 No. Igor's Keys reads the keyboard through the Windows Raw Input API, which any program may use. No driver, no

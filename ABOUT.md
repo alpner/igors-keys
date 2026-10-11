@@ -1,7 +1,8 @@
 # About Igor's Keys
 
 Igor's Keys is a small Windows tray program that gives the extra keys of the CHERRY CyMotion Master XPress
-keyboard (G86-21050) a job again. Cherry's original KeyM@n software was discontinued and its kernel driver
+keyboard (model G86-21050, part numbers such as G86-21050PLAAAA and G86-21050SLAAAA, USB id 046A:0023) a job
+again. It is made for that one keyboard and ignores every other device. Cherry's original KeyM@n software was discontinued and its kernel driver
 does not install on current Windows, which left the ten side keys and the Eject key dead.
 
 It was written for my father, Igor, so that his keyboard does everything it used to again. Hence the name.

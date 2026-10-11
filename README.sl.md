@@ -7,6 +7,24 @@ Windows 10 in 11. Nadomešča stari Cherryjev program KeyM@n, ki na sodobnih Win
 > ni od njega odobren. CHERRY, CyMotion in KeyM@n so blagovne znamke njihovih lastnikov; tu so omenjene le zato,
 > da je jasno, s katero tipkovnico in katerim starim programom deluje.
 
+## Narejeno za eno tipkovnico
+
+Igor's Keys je napisan in preizkušen za natanko eno tipkovnico:
+
+| | |
+|---|---|
+| Tipkovnica | **CHERRY CyMotion Master XPress**, s po petimi tipkami XPress ob levem in desnem robu |
+| Model | **G86-21050** (prodajne oznake na primer `G86-21050PLAAAA` in `G86-21050SLAAAA`; črke za številko se razlikujejo med različicami) |
+| Priklop | USB + PS/2. **Igor's Keys deluje le, če je priklopljena prek USB.** |
+| Windows jo vidi kot | napravo USB `046A:0023` |
+| Prvotno podprto | Windows 98 SE / ME / 2000 / XP s Cherryjevim programom KeyM@n |
+
+Opisi izdelka: [podatkovni list Icecat (G86-21050PLAAAA)](https://icecat.sg/p/cherry/g86-21050plaaaa/keyboards-cymotion+master+xpress-+g86-21050-779009.html#Specs),
+[Melcomp (G86-21050SLAAAA)](https://www.melcomp.hr/CHERRY_G86-21050_SLAAAA_USB_PS2_CyMotion_Master_Xpress_-sreb).
+
+Program posluša samo tipkovnico s to oznako USB, vse druge naprave prezre. Druge tipkovnice, tudi drugi modeli
+Cherry, niso podprte.
+
 Je majhen program, ki živi v opravilni vrstici (poleg ure) in čaka na dodatne tipke. Ko katero pritisnete,
 naredi, kar ste mu naročili: vnese besedilo, pritisne kombinacijo tipk ali odpre program, mapo ali spletno stran.
 

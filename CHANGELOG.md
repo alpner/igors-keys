@@ -4,8 +4,7 @@
 
 Renamed from CherryKeys to **Igor's Keys**: an unofficial project should not look like a Cherry product.
 
-* New name, new keycap icon. Program `IgorsKeys.exe`, settings in `%LOCALAPPDATA%\IgorsKeys` (CherryKeys 1.x
-  settings are not moved automatically: use Back up / Restore, see the README).
+* New name, new keycap icon. Program `IgorsKeys.exe`, settings in `%LOCALAPPDATA%\IgorsKeys`.
 * Import of KeyM@n `.csf` files: key macros keep their modifiers (Ctrl+K, Ctrl+C no longer becomes "K", "C");
   punctuation, numpad and media keys in macros are converted to names that work; accented characters in texts
   and paths are read in the Windows code page of the machine (č no longer turns into è on Slovenian Windows).

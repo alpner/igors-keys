@@ -44,15 +44,6 @@ Brez namestitve, brez skrbniških pravic, brez gonilnika. Tipkovnica za običajn
 PyInstallerjem ter spremlja tipkovnico in pošilja pritiske tipk – vse to varnostna orodja naredi previdna. V modrem
 oknu SmartScreen kliknite **Več informacij → Vseeno zaženi**.
 
-### Nadgradnja s CherryKeys 1.x
-
-Igor's Keys je novo ime programa CherryKeys in nastavitve hrani na novem mestu, zato začne s privzetimi
-dodelitvami. Svoje prenesete takole:
-
-1. V CherryKeys kliknite **Varnostna kopija nastavitev …** in datoteko nekam shranite.
-2. V meniju CherryKeys odznačite **Zaženi skupaj z Windows**, nato izberite **Izhod** in izbrišite njegovo mapo.
-3. Namestite Igor's Keys, kot je opisano zgoraj, in z **Obnovi nastavitve …** naložite datoteko iz 1. koraka.
-
 ## Jezik
 
 Program sam izbere slovenščino, če so Windows v slovenščini. Jezik lahko kadar koli zamenjate v meniju ikone:

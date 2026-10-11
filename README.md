@@ -48,15 +48,6 @@ PyInstaller, and it watches the keyboard and sends keystrokes – all things tha
 On the blue SmartScreen window click **More info → Run anyway**. If you prefer, build it yourself from this
 source code (see the end of this page).
 
-### Upgrading from CherryKeys 1.x
-
-Igor's Keys is the new name of CherryKeys and keeps its settings in a new place, so it starts with the default
-assignments. To bring yours along:
-
-1. In CherryKeys, click **Back up settings…** and save the file somewhere.
-2. Untick **Start with Windows** in the CherryKeys tray menu, then **Quit** it and delete its folder.
-3. Install Igor's Keys as above, then use **Restore settings…** with the file from step 1.
-
 **Slovenščina:** the program switches to Slovenian by itself when Windows is in Slovenian; the tray menu
 **Language** overrides that. Slovenian manual: `README.sl.md`.
 

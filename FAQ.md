@@ -67,11 +67,6 @@ the keyboard and sends keystrokes, which is also what malware does. It never sen
 and has no network code at all. The full source is in this repository, so you can read it or build the program
 yourself. On the SmartScreen window click **More info → Run anyway**.
 
-**I used CherryKeys before. What changed?**
-Only the name (and the icon). Igor's Keys keeps its settings in `AppData\Local\IgorsKeys` instead of
-`AppData\Local\CherryKeys`, so move your assignments with **Back up settings…** in the old version and
-**Restore settings…** in the new one, and untick **Start with Windows** in the old version before deleting it.
-
 **Is this made by Cherry?**
 No. It is an unofficial hobby project and is not affiliated with or supported by Cherry.
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.0.1 – 2026-11-21
+
+Fewer "this program is not safe" warnings.
+
+* `IgorsKeys.exe` now carries file details (description, product name, version, copyright), which shows in its
+  Properties and in Windows' warning dialogs. An unsigned program without them looks more suspicious to antivirus
+  programs.
+* The build never packs the program with UPX, which antivirus programs flag far more often.
+* Manuals and FAQ: unblock the downloaded zip before unzipping, which avoids the SmartScreen window. Also how to
+  unblock a folder that is already unzipped, and what to do when the antivirus removes the program or Smart App
+  Control blocks it.
+
 ## 2.0.0 – 2026-10-11
 
 Renamed from CherryKeys to **Igor's Keys**: an unofficial project should not look like a Cherry product.

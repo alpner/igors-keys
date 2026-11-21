@@ -32,21 +32,33 @@ folder or web page.
 ## Installing
 
 Download `IgorsKeys-<version>-win64.zip` from the
-[Releases page](https://github.com/alpner/igors-keys/releases/latest) and unzip it. (The repository itself
-contains only the source code; the ready-made program is attached to each release.)
+[Releases page](https://github.com/alpner/igors-keys/releases/latest). (The repository itself contains only
+the source code; the ready-made program is attached to each release.)
 
-1. Copy the whole `IgorsKeys` folder somewhere permanent that belongs to you, for example
+1. **Before you unzip it**, right-click the downloaded zip file, choose **Properties**, tick **Unblock** at the
+   bottom of the **General** tab and click **OK**. Windows marks every downloaded file as "from the internet"
+   and warns about programs that carry that mark; unblocking the zip removes it from everything inside. (No
+   **Unblock** box there? Then the file is not marked and there is nothing to do.) Then unzip it.
+2. Copy the whole `IgorsKeys` folder somewhere permanent that belongs to you, for example
    `C:\Users\<your name>\IgorsKeys`. Do not move it afterwards.
-2. Double-click `IgorsKeys.exe`. A small keycap icon appears next to the clock (click the little arrow
+3. Double-click `IgorsKeys.exe`. A small keycap icon appears next to the clock (click the little arrow
    `^` there if you do not see it).
-3. Right-click the keycap icon and tick **Start with Windows**, so it starts every time you log in.
+4. Right-click the keycap icon and tick **Start with Windows**, so it starts every time you log in.
 
 No installation, no administrator rights, no driver. The keyboard works exactly as before for normal typing.
 
 **Windows SmartScreen or your antivirus may warn about it.** The program is not code-signed, it is packed with
 PyInstaller, and it watches the keyboard and sends keystrokes – all things that make security tools cautious.
-On the blue SmartScreen window click **More info → Run anyway**. If you prefer, build it yourself from this
-source code (see the end of this page).
+Unblocking the zip (step 1) avoids the blue SmartScreen window. If you already unzipped it without unblocking,
+quit Igor's Keys, then unblock the folder by running this once in PowerShell (adjust the path):
+
+```
+Get-ChildItem -Recurse "$env:USERPROFILE\IgorsKeys" | Unblock-File
+```
+
+Or, on the blue SmartScreen window, click **More info → Run anyway**. For other warnings (an antivirus that
+removes the program, or "Smart App Control" blocking it) see `FAQ.md`. If you prefer, build it yourself from
+this source code (see the end of this page).
 
 **Slovenščina:** the program switches to Slovenian by itself when Windows is in Slovenian; the tray menu
 **Language** overrides that. Slovenian manual: `README.sl.md`.

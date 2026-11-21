@@ -65,7 +65,23 @@ and optionally delete `C:\Users\<your name>\AppData\Local\IgorsKeys`.
 The warning appears because the program is not code-signed and is packed with PyInstaller, and because it reads
 the keyboard and sends keystrokes, which is also what malware does. It never sends anything over the network
 and has no network code at all. The full source is in this repository, so you can read it or build the program
-yourself. On the SmartScreen window click **More info → Run anyway**.
+yourself. What to do depends on which warning you get:
+
+* **A blue "Windows protected your PC" window (SmartScreen).** Windows shows it for programs that came from the
+  internet. Unblock the zip before unzipping it (right-click → **Properties** → tick **Unblock** → **OK**), or,
+  if it is already unzipped, quit Igor's Keys and run this once in PowerShell (adjust the path):
+  `Get-ChildItem -Recurse "$env:USERPROFILE\IgorsKeys" | Unblock-File`. Or click **More info → Run anyway**.
+* **Your browser warns that the download "isn't commonly downloaded".** Choose **Keep** (in Edge: **…** →
+  **Keep** → **Show more** → **Keep anyway**), then unblock the zip as above.
+* **Windows Security reports a "threat" and removes `IgorsKeys.exe`.** That is a false alarm caused by the
+  packing. Open **Windows Security → Virus & threat protection → Protection history**, choose the entry and
+  **Restore** (or **Allow on device**). False alarms can be reported to Microsoft at
+  https://www.microsoft.com/wdsi/filesubmission so later definitions stop flagging the file.
+* **"Smart App Control blocked an app" with no Run anyway button.** Smart App Control only runs programs that are
+  digitally signed or that Microsoft already knows, and Igor's Keys is not signed. The only way round it is to
+  switch Smart App Control off in **Windows Security → App & browser control → Smart App Control settings**.
+  Think about that before you do it: on some Windows versions it cannot be switched back on without
+  reinstalling Windows.
 
 **Is this made by Cherry?**
 No. It is an unofficial hobby project and is not affiliated with or supported by Cherry.

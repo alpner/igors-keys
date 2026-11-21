@@ -3,8 +3,12 @@
 $ErrorActionPreference = "Stop"
 Set-Location $PSScriptRoot
 python make_icon.py
-python -m PyInstaller --noconfirm --clean --windowed --name IgorsKeys `
+python make_version.py
+# --noupx: UPX-packed programs are flagged by antivirus far more often.
+# --version-file: description, product name and version in the exe (unsigned exes without them look suspicious).
+python -m PyInstaller --noconfirm --clean --windowed --noupx --name IgorsKeys `
     --icon igorskeys\icon.ico `
+    --version-file build\version_info.txt `
     --add-data "igorskeys\keys.json;igorskeys" `
     --add-data "igorskeys\icon.ico;igorskeys" `
     --collect-submodules pystray `

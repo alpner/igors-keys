@@ -31,18 +31,31 @@ naredi, kar ste mu naročili: vnese besedilo, pritisne kombinacijo tipk ali odpr
 ## Namestitev
 
 Prenesite datoteko `IgorsKeys-<različica>-win64.zip` s strani
-[Releases](https://github.com/alpner/igors-keys/releases/latest) in jo razširite.
+[Releases](https://github.com/alpner/igors-keys/releases/latest).
 
-1. Celotno mapo `IgorsKeys` prekopirajte na stalno mesto, ki je vaše, na primer
+1. **Preden datoteko razširite**, jo kliknite z desno tipko miške, izberite **Lastnosti**, na dnu zavihka
+   **Splošno** označite **Odblokiraj** in kliknite **V redu**. Windows vsako preneseno datoteko označi kot
+   »iz interneta« in opozarja na programe s to oznako; z odblokiranjem datoteke zip oznako odstranite z vsega, kar
+   je v njej. (Če polja **Odblokiraj** ni, datoteka ni označena in ni treba storiti ničesar.) Nato jo razširite.
+2. Celotno mapo `IgorsKeys` prekopirajte na stalno mesto, ki je vaše, na primer
    `C:\Users\<vaše ime>\IgorsKeys`. Pozneje je ne premikajte.
-2. Dvokliknite `IgorsKeys.exe`. Poleg ure se pojavi ikona tipke (če je ne vidite, kliknite puščico `^`).
-3. Z desno tipko miške kliknite ikono in označite **Zaženi skupaj z Windows**, da se program zažene ob vsaki prijavi.
+3. Dvokliknite `IgorsKeys.exe`. Poleg ure se pojavi ikona tipke (če je ne vidite, kliknite puščico `^`).
+4. Z desno tipko miške kliknite ikono in označite **Zaženi skupaj z Windows**, da se program zažene ob vsaki prijavi.
 
 Brez namestitve, brez skrbniških pravic, brez gonilnika. Tipkovnica za običajno tipkanje deluje natanko tako kot prej.
 
 **Windows SmartScreen ali protivirusni program vas lahko opozori.** Program ni digitalno podpisan, zapakiran je s
-PyInstallerjem ter spremlja tipkovnico in pošilja pritiske tipk – vse to varnostna orodja naredi previdna. V modrem
-oknu SmartScreen kliknite **Več informacij → Vseeno zaženi**.
+PyInstallerjem ter spremlja tipkovnico in pošilja pritiske tipk – vse to varnostna orodja naredi previdna.
+Z odblokiranjem datoteke zip (1. korak) se modremu oknu SmartScreen izognete. Če ste jo že razširili brez
+odblokiranja, zaprite Igor's Keys in mapo odblokirajte tako, da v PowerShellu enkrat zaženete (pot po potrebi
+popravite):
+
+```
+Get-ChildItem -Recurse "$env:USERPROFILE\IgorsKeys" | Unblock-File
+```
+
+Lahko pa v modrem oknu SmartScreen kliknete **Več informacij → Vseeno zaženi**. Za druga opozorila (protivirusni
+program, ki program odstrani, ali »Pametni nadzor aplikacij«, ki ga blokira) glejte `FAQ.md` (v angleščini).
 
 ## Jezik
 
